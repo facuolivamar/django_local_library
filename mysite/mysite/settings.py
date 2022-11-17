@@ -27,15 +27,15 @@ DEBUG = True
 
 ## For example, for a site URL at 'web-production-3640.up.railway.app'
 ## (replace the string below with your own site URL):
-ALLOWED_HOSTS = ['web-production-3640.up.railway.app', '0.0.0.0'] #http://0.0.0.0:6128/
+ALLOWED_HOSTS = ['malicious-hill-production.up.railway.app', '0.0.0.0'] #http://0.0.0.0:6128/
 
 # During development, you can instead set just the base URL
 # (you might decide to change the site a few times).
 # ALLOWED_HOSTS = ['.railway.com','127.0.0.1']
 
-## For example, for a site URL is at 'web-production-3640.up.railway.app'
+## For example, for a site URL is at 'malicious-hill-production.up.railway.app'
 ## (replace the string below with your own site URL):
-CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://malicious-hill-production.up.railway.app']
 
 # During development/for this tutorial you can instead set just the base URL
 # CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
