@@ -42,6 +42,7 @@ CSRF_TRUSTED_ORIGINS = ['https://malicious-hill-production.up.railway.app']
 
 # Application definition
 
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
